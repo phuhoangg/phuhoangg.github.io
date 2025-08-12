@@ -104,6 +104,10 @@ body {
     font-size: 1.3rem;
 }
 
+.profile-location i {
+    color: #888888;
+}
+
 .contact-section,
 .connect-section {
     width: 100%;
@@ -123,6 +127,11 @@ body {
     font-size: 1.4rem;
 }
 
+.contact-section h3 i,
+.connect-section h3 i {
+    color: var(--sidebar-text);
+}
+
 .contact-list {
     list-style: none;
 }
@@ -135,6 +144,10 @@ body {
     padding: 8px;
     font-size: 1.3rem;
     color: var(--sidebar-text);
+}
+
+.contact-list li i {
+    color: #888888;
 }
 
 .contact-list li:hover {
@@ -214,6 +227,7 @@ body {
 
 .section-header h2 i {
     margin-right: 8px;
+    color: var(--text-color);
 }
 
 .description {
@@ -314,6 +328,10 @@ body {
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.date i {
+    color: #666666;
 }
 
 .desc {
