@@ -34,6 +34,7 @@ body {
     margin: 0;
     position: relative;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 /* Main container - Full width */
@@ -66,7 +67,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .sidebar::before {
@@ -111,7 +112,7 @@ body {
 }
 
 .profile-name {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     margin-bottom: 8px;
     background: var(--secondary-gradient);
     -webkit-background-clip: text;
@@ -122,7 +123,7 @@ body {
 }
 
 .profile-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #aaaaaa;
     margin-bottom: 8px;
     font-weight: 400;
@@ -135,7 +136,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 6px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 /* Contact section */
@@ -155,7 +156,7 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .contact-list {
@@ -170,7 +171,7 @@ body {
     padding: 8px;
     border-radius: 0;
     transition: var(--transition);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .contact-list li:hover {
@@ -201,12 +202,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.05);
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     transition: var(--transition);
     text-decoration: none;
     box-shadow: none;
@@ -238,6 +239,7 @@ body {
     backdrop-filter: none;
     border: none;
     transition: var(--transition);
+    color: #000000;
 }
 
 .content-section:hover {
@@ -249,7 +251,7 @@ body {
 .section-header {
     margin-bottom: 15px;
     position: relative;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 10px;
 }
 
@@ -265,6 +267,7 @@ body {
     border-bottom: 1px solid transparent;
     background-origin: border-box;
     font-weight: 600;
+    color: #000000;
 }
 
 .section-header h2 i {
@@ -274,7 +277,7 @@ body {
 /* Description */
 .description {
     font-size: 0.95rem;
-    color: #cccccc;
+    color: #333333;
     line-height: 1.6;
     text-align: justify;
 }
@@ -289,7 +292,7 @@ body {
 }
 
 .skill-category h3 {
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 12px;
     font-size: 1.1rem;
     font-weight: 500;
@@ -311,7 +314,7 @@ body {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .skill::before {
@@ -364,13 +367,13 @@ body {
     height: 15px;
     border-radius: 50%;
     background: var(--primary-gradient);
-    border: 2px solid var(--dark-bg);
+    border: 2px solid #ffffff;
     z-index: 1;
-    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 .timeline-content h3 {
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 6px;
     font-size: 1.1rem;
     font-weight: 500;
@@ -379,12 +382,12 @@ body {
 .company, .school {
     font-weight: 400;
     margin-bottom: 6px;
-    color: #aaaaaa;
+    color: #333333;
     font-size: 0.95rem;
 }
 
 .date {
-    color: #888888;
+    color: #666666;
     margin-bottom: 10px;
     font-size: 0.85rem;
     display: flex;
@@ -393,7 +396,7 @@ body {
 }
 
 .desc {
-    color: #cccccc;
+    color: #333333;
     line-height: 1.5;
     font-size: 0.9rem;
 }
@@ -407,10 +410,10 @@ body {
 }
 
 .project-card {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(0, 0, 0, 0.03);
     padding: 20px;
     border-radius: 0;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
@@ -429,7 +432,7 @@ body {
 .project-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .project-header {
@@ -437,21 +440,21 @@ body {
 }
 
 .project-header h3 {
-    color: #ffffff;
+    color: #000000;
     font-size: 1.1rem;
     margin-bottom: 0;
     font-weight: 500;
 }
 
 .project-description {
-    color: #cccccc;
+    color: #333333;
     margin-bottom: 15px;
     line-height: 1.5;
     font-size: 0.9rem;
 }
 
 .project-links a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: 400;
     padding: 6px 12px;
@@ -461,25 +464,26 @@ body {
     align-items: center;
     gap: 4px;
     font-size: 0.8rem;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .project-links a:hover {
     background: var(--primary-gradient);
     transform: translateY(-1px);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    color: white;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 15px;
-    color: #888888;
+    color: #666666;
     font-size: 0.8rem;
     margin: 0;
     background: rgba(0, 0, 0, 0.8);
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 /* Responsive */
